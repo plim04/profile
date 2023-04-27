@@ -1,0 +1,119 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.whole-page {
+    background-color: #E1E170;
+}
+
+.header {
+    background-color: #E1E170;
+    padding: 20px;
+    text-align: center;
+}
+
+.header>h1 {
+    color: black;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #D1D149;
+}
+
+.nav-bar a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: peru;
+    color: black;
+}
+
+.image-profile>img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.image-profile {
+    text-align: center;
+}
+
+.profile-text {
+    text-align: center;
+}
+
+
+.text-info {
+    border: 5px solid #B0B020;
+}
+
+.contact-info {
+    border: 5px solid #B0B020;
+    height: fit-content;
+    background-color: #E1E170;
+}
+
+
+.footer {
+    flex-shrink: 0;
+}
+
+
+
+body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* cheatsheet css */
+
+.mytabs {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 25px;
+}
+
+.mytabs input[type="radio"] {
+    display: none;
+}
+
+.mytabs label {
+    padding: 25px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+
+.mytabs .tab {
+    width: 100%;
+    padding: 20px;
+    background: #fff;
+    order: 3;
+    display: none;
+}
+
+.mytabs .tab h2 {
+    font-size: 2em;
+}
+
+/* checked psuedo-class selects element when they are in a selected state */
+.mytabs input[type='radio']:checked+label+.tab {
+    display: block;
+}
+
+.mytabs input[type="radio"]:checked+label {
+    background: #fff;
+}
+
+/* Have to make sure to border the th and td as well otherwise the full border won't show */
+.mytabs > table, th, td  {
+    border: 3px solid red;
+}
