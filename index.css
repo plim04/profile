@@ -3,12 +3,12 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
-.whole-page {
+/* .whole-page {
   background-color: #e1e170;
-}
+} */
 
 .header {
-  background-color: #e1e170;
+  background-color: #A2A0A0;
   padding: 20px;
   text-align: center;
 }
@@ -19,7 +19,7 @@
 
 .nav-bar {
   overflow: hidden;
-  background-color: #d1d149;
+  background-color: #cfcece;
 }
 
 .nav-bar a {
@@ -39,6 +39,7 @@
   border-radius: 50%;
   width: 200px;
   height: 200px;
+  margin: 10px;
 }
 
 .image-profile {
@@ -50,13 +51,16 @@
 }
 
 .text-info {
-  border: 5px solid #b0b020;
+  border: 8px solid #A2A0A0;
+  padding: 10px;
 }
 
 .contact-info {
-  border: 5px solid #b0b020;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid #A2A0A0;
   height: fit-content;
-  background-color: #e1e170;
+  /* background-color: #e1e170; */
 }
 
 .footer {
@@ -76,6 +80,7 @@ body {
   max-width: 600px;
   margin: 50px auto;
   padding: 25px;
+  background-color: #CFCECE;
 }
 
 .mytabs input[type="radio"] {
