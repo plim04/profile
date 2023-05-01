@@ -121,3 +121,8 @@ th,
 td {
   border: 3px solid #A2A0A0;
 }
+
+/* Waffle css */
+body #waffle {
+  background-image: url(images/waffle.jpg);
+}
