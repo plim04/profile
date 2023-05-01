@@ -135,3 +135,7 @@ td {
   background-size: cover;
   position: relative;
 }
+
+.waffle-info h1 {
+  color: white;
+}
