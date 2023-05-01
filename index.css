@@ -125,4 +125,5 @@ td {
 /* Waffle css */
 body #waffle {
   background-image: url(images/waffle.jpg);
+  background-size: cover;
 }
