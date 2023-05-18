@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/slider.css">
+    <!--EXTERNALISE THIS CSS-->
+</head>
+
+<body>
+
+    <div id="navbar-holder">
+
+    </div>
+
+    <div class="slider-container">
+        <!-- slider  -->
+        <div class="slider">
+
+            <!-- slide 1 -->
+            <div class="slide">
+                <img src="pictures/nature1.jpg" alt="" />
+            </div>
+
+            <!-- slide 2 -->
+            <div class="slide">
+                <img src="pictures/nature2.jpg" alt="" />
+            </div>
+
+            <!-- slide 3 -->
+            <div class="slide">
+                <img src="pictures/nature3.jpg" alt="" />
+            </div>
+
+            <!-- slide 4 -->
+            <div class="slide">
+                <img src="pictures/nature4.jpg" alt="" />
+            </div>
+
+            <!-- Control buttons -->
+            <button class="slide-arrow btn-prev" id="slide-arrow-prev">
+                &#8249;
+            </button>
+            <button class="slide-arrow btn-next" id="slide-arrow-next">
+                &#8250;
+            </button>
+
+        </div>
+    </div>
+
+    <!--EXTERNALISE THIS JAVASCRIPT-->
+
+    <script src="scripts/slider.js"></script>
+
+    <script>slider()</script>
+
+    <script src="scripts/include.js"></script>
+
+    <script>
+        insertHtmlIntoDiv('navbar.html', 'navbar-holder', "gallery"); //call the function
+    </script>
+
+
+</body>
+
+</html>

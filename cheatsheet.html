@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="css/index.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.css" />
   <title>Ultimate Cheatsheet</title>
@@ -16,11 +16,8 @@
       </h1>
     </div>
 
-    <div class="nav-bar">
-      <a href="index.html">HOME</a>
-      <a href="contact.html">CONTACT</a>
-      <a href="cheatsheet.html">CHEATSHEET</a>
-      <a href="gallery.html">GALLERY</a>
+    <div id="navbar-holder">
+
     </div>
 
     <div class="mytabs">
@@ -541,6 +538,12 @@
     </div>
 
   </div>
+
+  <script src="scripts/include.js"></script>
+
+  <script>
+    insertHtmlIntoDiv('navbar.html', 'navbar-holder', "cheatsheet"); //call the function
+  </script>
 
 </body>
 

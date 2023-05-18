@@ -16,11 +16,8 @@
         </h1>
     </div>
 
-    <div class="nav-bar">
-        <a href="index.html">HOME</a>
-        <a href="contact.html">CONTACT</a>
-        <a href="cheatsheet.html">CHEATSHEET</a>
-        <a href="gallery.html">GALLERY</a>
+    <div id="navbar-holder">
+
     </div>
 
     <div class="contact-info">
@@ -38,6 +35,13 @@
         <br>
         "BJSS is the best thing since sliced bread"
     </footer>
+
+    <script src="scripts/include.js"></script>
+
+    <script>
+        insertHtmlIntoDiv('navbar.html', 'navbar-holder', "contact"); //call the function
+    </script>
+
 </body>
 
 </html>
