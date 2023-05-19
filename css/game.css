@@ -5,7 +5,8 @@ div.gameContainer {
 div.game-img {
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 150px;
+    padding: 15px;
 }
 
 #your-score {
@@ -31,4 +32,8 @@ div.game-img {
 #gameWinner {
     display: flex;
     justify-content: center;
+}
+
+.gameContainer > .game-img > img {
+    border: black 4px solid;
 }
