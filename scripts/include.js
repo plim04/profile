@@ -22,7 +22,8 @@ async function insertHtmlIntoDiv(file, divId, activeid) {
   
       const div = document.getElementById(divId);
       div.innerHTML = '';
-        div.appendChild(doc.documentElement);
+        //div.appendChild(doc.documentElement);
+        div.insertAdjacentHTML("afterbegin", doc.documentElement.innerHTML)
 
         var els = document.getElementById(activeid)
         els.classList.add("active")

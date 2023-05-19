@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/game.css">
+    <script src="scripts/game.js"></script>
+</head>
+
+<body>
+
+    <div id="navbar-holder">
+
+    </div>
+
+    <div class="gameContainer">
+
+        <h1 id="game-title">Rock Paper Scissors</h1>
+
+        <h1 id="computer-score">computer score:0</h1>
+
+        <img id="opponent-choice">
+        <br>
+        <img id="your-choice">
+
+        <div class="game-img" id="rock">
+            <img src="images/rock.png" alt="rock" onclick="game('rock')">
+        </div>
+
+
+        <div class="game-img" id="paper">
+            <img src="images/paper.png" alt="paper" onclick="game('paper')">
+        </div>
+
+        <div class="game-img" id="scissors">
+            <img src="images/scissors.png" alt="scissors" onclick="game('scissors')">
+        </div>
+
+        <h1 id="your-score">your score:0</h1>
+    </div>
+
+
+    <script src="scripts/include.js"></script>
+
+    <script>
+        insertHtmlIntoDiv('navbar.html', 'navbar-holder', "game"); //call the function
+    </script>
+
+</body>
+
+</html>
