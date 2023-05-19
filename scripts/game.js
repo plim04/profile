@@ -6,32 +6,32 @@ function game(input) {
     console.log("computer chose:" + computer)
     console.log("user chose:" + input)
     if (computer == input) {
-        console.log("draw")
+        document.getElementById("gameWinner").innerText = "Winner: Tie"
         yourScore += 1
         computerScore += 1
     }
     if (input == "rock" && computer == "paper") {
-        console.log("compter wins")
+        document.getElementById("gameWinner").innerText = "Winner: Computer"
         computerScore += 1
     } 
     if (input == "rock" && computer == "scissors") {
-        console.log("user wins")
+        document.getElementById("gameWinner").innerText = "Winner: You"
         yourScore += 1
     }
     if (input == "paper" && computer == "scissors") {
-        console.log("computer wins")
+        document.getElementById("gameWinner").innerText = "Winner: Computer"
         computerScore += 1
     }
     if (input == "paper" && computer == "rock") {
-        console.log("user wins")
+        document.getElementById("gameWinner").innerText = "Winner: You"
         yourScore += 1
     }
     if (input == "scissors" && computer == "rock") {
-        console.log("computer wins")
+        document.getElementById("gameWinner").innerText = "Winner: Computer"
         computerScore += 1
     }
     if (input == "scissors" && computer == "paper") {
-        console.log("user wins")
+        document.getElementById("gameWinner").innerText = "Winner: You"
         yourScore += 1
     }
 
