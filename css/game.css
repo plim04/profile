@@ -27,3 +27,8 @@ div.game-img {
     display: flex;
     justify-content: center;
 }
+
+#gameWinner {
+    display: flex;
+    justify-content: center;
+}
