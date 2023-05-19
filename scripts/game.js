@@ -35,8 +35,10 @@ function game(input) {
         yourScore += 1
     }
 
-    document.getElementById("your-score").innerText = "your score:" + yourScore
-    document.getElementById("computer-score").innerText = "computer score:" + computerScore
+    document.getElementById("your-score").innerText = "Your score: " + yourScore
+    document.getElementById("your-choice").innerText = "You chose: " + input
+    document.getElementById("computer-score").innerText = "Computer score: " + computerScore
+    document.getElementById("computer-choice").innerText = "Computer chose: " + computer
 }  
 
 function randComputerAns() {
@@ -51,4 +53,3 @@ function randComputerAns() {
         return "scissors"
     } 
 }
-

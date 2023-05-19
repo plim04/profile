@@ -22,3 +22,8 @@ div.game-img {
     display: flex;
     justify-content: center;
 }
+
+.gameChoice {
+    display: flex;
+    justify-content: center;
+}
